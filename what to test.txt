@@ -1,0 +1,17 @@
+what to test
+-incoming query messages
+	-make assertions about what they return
+-query/command combo
+	-test incoming command messages by making assertions about direct public side effects
+-messages sent to self
+	-dont test private methods, dont make assertions about their result, dont expect to send them
+	-Ignore them!!
+-outgoing query messages
+	-dont test outgoing query messages! dont make assertions about their result
+
+if a message has no visible side effects, the seder should nto test it
+
+-outgoing command messages
+	-expect to send outgoing command messages
+	-
+	
