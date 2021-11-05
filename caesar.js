@@ -15,7 +15,6 @@ function caesar(word, key) {
 		cipherIndex = (position + keyNum) % 26;
 		// console.log("cipherIndex is ", cipherIndex);
 		if (check.match(/[A-Z]/)) {
-			console.log("uppercase");
 			cipherWord.push(getCharAtIndex(cipherIndex).toUpperCase());
 		}
 		//check for punctuation;
